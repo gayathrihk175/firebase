@@ -1,0 +1,86 @@
+* , html , body , div {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.navbar__div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    margin-right: 1rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: teal;
+}
+/* .navbar__div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+} */
+.input__div {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-top: 5rem;
+}
+.input__div > input {
+    height: 2rem;
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2rem;
+}
+.input__div > button {
+    background-color: grey;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+.allToDo__div {
+    display: flex;
+    flex-direction: column;
+}
+.allToDo__div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 1rem;
+}
+.allToDo__div > div > div {
+    margin-right: 1rem;
+}
+.allToDo__div > div > div:nth-child(2) > button {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 0.5rem;
+    background-color: grey;
+    border-radius: 5px;
+}
+.allToDo__div > div > div:nth-child(3) > button {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 0.5rem;
+    background-color: grey;
+    border-radius: 5px;
+}
+

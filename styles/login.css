@@ -1,0 +1,29 @@
+#login__div > form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-top: 5rem;
+}
+#login__div > form > div {
+    width: 30%;
+    margin: auto;
+}
+input {
+    width: 100%;
+    background-color: grey;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    padding-left: .5rem;
+    color: black;
+}
+#submit__button {
+    background-color: violet;
+    margin-top: 2rem;
+}
+.register__a {
+    color: green;
+}
